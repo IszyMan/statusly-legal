@@ -8,7 +8,7 @@
 
     <meta
         name="description"
-        content="Privacy Policy for Statusly, a WhatsApp Status Saver app."
+        content="How Statusly handles local media, rewards information, referrals and regional availability."
     >
 
     <style>
@@ -18,7 +18,6 @@
 
         body {
             margin: 0;
-            padding: 0;
             background: #f5f7f6;
             color: #222;
             font-family: Arial, Helvetica, sans-serif;
@@ -33,7 +32,7 @@
         }
 
         .card {
-            background: #ffffff;
+            background: #fff;
             border-radius: 16px;
             padding: 35px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
@@ -43,12 +42,14 @@
             margin-top: 0;
             color: #128c7e;
             font-size: 32px;
+            line-height: 1.25;
         }
 
         h2 {
             margin-top: 35px;
             color: #128c7e;
             font-size: 22px;
+            line-height: 1.4;
         }
 
         p {
@@ -60,11 +61,17 @@
         }
 
         li {
-            margin-bottom: 8px;
+            margin-bottom: 12px;
         }
 
         a {
-            color: #128c7e;
+            color: #087366;
+            overflow-wrap: anywhere;
+        }
+
+        a:focus-visible {
+            outline: 3px solid #128c7e;
+            outline-offset: 4px;
         }
 
         .updated {
@@ -78,6 +85,15 @@
             padding: 15px 18px;
             margin: 25px 0;
             border-radius: 6px;
+        }
+
+        .notice h2 {
+            margin: 0 0 8px;
+            font-size: 19px;
+        }
+
+        .notice p:last-child {
+            margin-bottom: 0;
         }
 
         .footer {
@@ -109,345 +125,444 @@
 </head>
 
 <body>
-
-<div class="container">
-
-    <div class="card">
-
+<main class="container">
+    <article class="card">
         <h1>Statusly Privacy Policy</h1>
 
         <p class="updated">
-            Last updated: September 11, 2026
+            Last updated:
+            <time datetime="2026-11-14">November 14, 2026</time>
         </p>
 
-        <div class="notice">
-            Statusly is designed to help you view and save photos and
-            videos from WhatsApp statuses on your Android device.
-        </div>
+        <p>
+            Statusly helps you view, save, organize and share WhatsApp
+            status photos and videos on your Android device.
+        </p>
+
+        <aside class="notice" aria-labelledby="regional-heading">
+            <h2 id="regional-heading">Regional rewards availability</h2>
+
+            <p>
+                Mobile-data reward offers are currently available only
+                to eligible users in Nigeria. The App checks approximate
+                country using your IP address to determine availability.
+                Users outside the eligible region do not see reward
+                offers or campaign popups.
+            </p>
+
+            <p>
+                For eligible users, rewards device registration may
+                begin automatically when the App starts, before joining
+                an offer. Additional information is processed for
+                referrals, qualifying activity and reward claims as
+                explained below.
+            </p>
+
+            <p>
+                Your selected app language does not determine your
+                country or reward eligibility. Features and data
+                processing also depend on the version of Statusly
+                installed on your device.
+            </p>
+        </aside>
 
         <h2>1. Introduction</h2>
 
         <p>
-            This Privacy Policy explains how Statusly handles information
-            when you use the Statusly mobile application ("Statusly",
-            "the App", or "our App").
+            This Privacy Policy explains how Statusly, provided by
+            Iszy_Man, handles information when you use the Statusly
+            mobile application.
         </p>
 
         <p>
-            Statusly is designed with a local-first approach. The App does
-            not require you to create an account and the current version
-            does not operate a server that stores your WhatsApp status
-            photos or videos.
+            Statusly processes status photos and videos locally on your
+            device. You do not need to create a username or password to
+            use its core saving features.
         </p>
 
         <p>
-            This Privacy Policy explains what information Statusly accesses,
-            how that information is used, whether it is shared with third
-            parties, and how information is retained or deleted.
+            Rewards-enabled versions also use a server-side device
+            profile to record participation, referrals, qualifying
+            activity and reward claims. Not requiring a conventional
+            login does not mean that no information is collected.
         </p>
 
         <h2>2. Information Statusly Accesses</h2>
 
         <p>
-            Statusly may access photos and videos stored in supported
-            WhatsApp status media locations on your Android device when
-            you give the App the necessary access or select the relevant
-            folder through Android's file or folder selection system.
+            Statusly accesses photos and videos in supported WhatsApp
+            status locations when you grant access or select the
+            relevant folder through Android's file-selection system.
         </p>
 
         <p>
-            This access is necessary for Statusly's main functionality:
-            displaying available WhatsApp status media so that you can
-            view and save content to your device.
-        </p>
-
-        <p>
-            Depending on your device, Android version, and installed
-            WhatsApp applications, Statusly may support WhatsApp and
-            WhatsApp Business status folders.
+            This access supports displaying, viewing and saving status
+            media. Depending on your device and installed applications,
+            Statusly supports WhatsApp and WhatsApp Business folders.
         </p>
 
         <h2>3. How Statusly Uses Accessed Media</h2>
 
-        <p>
-            Statusly uses the status photos and videos it accesses to
-            provide the App's features, including:
-        </p>
+        <p>Statusly uses accessible media to provide features including:</p>
 
         <ul>
-            <li>Displaying available status photos and videos.</li>
-            <li>Allowing you to view status media.</li>
-            <li>Allowing you to save selected status media.</li>
-            <li>Allowing you to view media saved through the App.</li>
-            <li>Allowing you to use supported sharing or opening functions on your device.</li>
+            <li>Displaying and previewing status photos and videos.</li>
+            <li>Saving selected media to your device.</li>
+            <li>Organizing and viewing saved media.</li>
+            <li>Sharing or reposting media when you choose to do so.</li>
         </ul>
 
         <p>
-            The current version of Statusly processes supported status
-            media locally on your device. Statusly does not need to upload
-            your WhatsApp status photos or videos to a Statusly server to
-            provide these core features.
+            Statusly does not upload your status photos or videos to
+            its rewards server. For rewards qualification, the App may
+            send a content hash and metadata about a successfully saved
+            status. This metadata is separate from the photo or video.
         </p>
 
-        <h2>4. Information We Do Not Collect</h2>
+        <h2>4. Information Processed for Rewards and Support</h2>
 
         <p>
-            The current version of Statusly does not require you to create
-            an account and does not intentionally collect personal
-            information such as:
+            Depending on your eligibility, installed app version and
+            features used, Statusly processes:
         </p>
 
         <ul>
-            <li>Your name.</li>
-            <li>Your phone number.</li>
-            <li>Your email address through the App.</li>
-            <li>Your WhatsApp account credentials.</li>
-            <li>Your WhatsApp messages.</li>
-            <li>Your WhatsApp contacts.</li>
-            <li>Your passwords.</li>
-            <li>Your payment information.</li>
-            <li>Your precise location.</li>
+            <li>
+                <strong>Device identification.</strong>
+                The App sends your Android ID to our API. The API
+                derives a hashed device identifier used for rewards
+                registration, authentication and fraud prevention.
+                Hashing makes this information pseudonymous, not
+                anonymous.
+            </li>
+
+            <li>
+                <strong>Authentication information.</strong>
+                Rewards device tokens are stored using the App's
+                secure-storage mechanism. Token hashes and expiry
+                information are maintained by the API.
+            </li>
+
+            <li>
+                <strong>Referral information.</strong>
+                This includes referral codes, installation attribution
+                obtained through Google Play when available, links
+                between inviter and invitee devices, and referral
+                qualification records.
+            </li>
+
+            <li>
+                <strong>Qualifying-save information.</strong>
+                This includes content hashes, media type, source
+                application category, file size and activity timestamps.
+                It is used to calculate task progress and detect
+                duplicate saves.
+            </li>
+
+            <li>
+                <strong>Campaign and reward records.</strong>
+                This includes offers joined, task progress, earned
+                rewards, recurring eligibility and redemption history.
+            </li>
+
+            <li>
+                <strong>Redemption information.</strong>
+                When you claim mobile data, we process the destination
+                phone number, selected network, reward or bundle,
+                transaction references, processing messages and
+                delivery status.
+            </li>
+
+            <li>
+                <strong>Phone-number reservation information.</strong>
+                We retain a phone-number hash, limited number details
+                and its association with a rewards device to prevent
+                the same number being reserved by different devices.
+                Full destination numbers are also processed in
+                redemption records.
+            </li>
+
+            <li>
+                <strong>Connection and country information.</strong>
+                Our servers and hosting infrastructure receive your
+                IP address and technical request information.
+                Operational logs may contain timestamps and error
+                information. We use an IP-country database to estimate
+                your country for regional eligibility.
+            </li>
+
+            <li>
+                <strong>Support correspondence.</strong>
+                If you email support, we receive your email address
+                and the information you include in your message.
+            </li>
         </ul>
 
         <p>
-            Statusly also does not require a username or password to use
-            its core functionality.
+            Statusly does not request your WhatsApp password, private
+            chat messages, contacts, bank-card details or GPS location
+            for these features. A phone number is required when
+            requesting delivery of a mobile-data reward.
         </p>
 
         <h2>5. Local Storage and App Preferences</h2>
 
         <p>
-            Statusly may store certain application preferences locally on
-            your device. These may include information such as whether you
-            have completed the onboarding process or which supported status
-            source you last selected.
+            Statusly stores settings such as your selected language,
+            onboarding status, selected WhatsApp source and folder
+            organization on your device.
         </p>
 
         <p>
-            This information is stored locally on your device and is used
-            to make the App function properly and remember your preferences.
+            Rewards authentication tokens use the App's secure-storage
+            mechanism. Availability results and other information may
+            be cached temporarily in memory to reduce repeated requests.
         </p>
 
         <p>
-            This local preference information is not used by Statusly to
-            identify you personally.
+            Server-side device records are separate from local
+            preferences and can remain after the App is uninstalled.
         </p>
 
         <h2>6. Saved Photos and Videos</h2>
 
         <p>
-            When you choose to save a photo or video using Statusly, the
-            resulting file is stored on your device according to the
-            App's saving functionality and Android's storage system.
+            Saved photos and videos are stored on your device using
+            Android's storage system. Statusly does not keep a
+            server-side copy of saved status media as part of its
+            normal operation.
         </p>
 
         <p>
-            Statusly does not maintain a server-side copy of your saved
-            status media as part of the App's normal operation.
-        </p>
-
-        <p>
-            Files saved by you remain on your device until you choose to
-            delete them using the available device, gallery, file-management,
-            or App functionality.
+            Saved files remain until you delete them through Statusly,
+            your gallery, a file manager or other available tools.
         </p>
 
         <h2>7. Sharing Information With Third Parties</h2>
 
         <p>
-            Statusly does not sell, rent, or trade your personal information.
+            Statusly does not sell, rent or trade your personal
+            information.
         </p>
 
         <p>
-            In the current version of the App, Statusly does not
-            intentionally send your WhatsApp status photos or videos to
-            third-party servers for storage or advertising purposes.
+            Hosting and infrastructure providers process information
+            needed to operate and store API records.
         </p>
 
         <p>
-            If you choose to use Android's sharing, opening, or other
-            third-party functionality, the information or media you choose
-            to share may be handled by the application or service you select.
-            That handling is governed by the privacy policy and terms of
-            the third party involved.
-        </p>
-
-        <h2>8. Third-Party Services and Software</h2>
-
-        <p>
-            Statusly may use third-party software libraries that are
-            necessary to provide certain technical functions of the App.
+            When you claim mobile data, relevant details, including
+            the destination phone number, network, selected bundle
+            and transaction reference, are sent to VTpass and relevant
+            fulfilment providers or mobile networks to process delivery
+            and check transaction status.
         </p>
 
         <p>
-            Third-party software may process information according to its
-            own technical operation and applicable policies.
+            If you choose to share media or an app link, Android passes
+            your selected content to the application or service you
+            choose. Referral links contain a referral code. External
+            services handle information under their own policies.
         </p>
 
         <p>
-            If future versions of Statusly introduce analytics, advertising,
-            crash reporting, cloud services, or other third-party services
-            that collect or transmit user data, this Privacy Policy will be
-            updated to explain the applicable data practices.
+            Information may also be disclosed where necessary to comply
+            with applicable legal obligations or valid legal requests.
+        </p>
+
+        <h2>8. Third-Party Services and Country Detection</h2>
+
+        <p>
+            Statusly uses third-party libraries and services for
+            functions including Google Play installation attribution,
+            app updates, hosting and VTpass reward fulfilment.
+        </p>
+
+        <p>
+            Country detection uses a DB-IP database stored on our
+            server. This lookup does not send each visitor's IP address
+            to an external DB-IP lookup API.
+        </p>
+
+        <p>
+            <a href="https://db-ip.com">IP Geolocation by DB-IP</a>.
+            DB-IP Lite data is licensed under
+            <a href="https://creativecommons.org/licenses/by/4.0/">
+                Creative Commons Attribution 4.0 International
+            </a>.
+        </p>
+
+        <p>
+            IP-country detection is approximate. It does not establish
+            nationality or exact physical location. VPNs, travel and
+            network routing can affect the result.
+        </p>
+
+        <p>
+            Service providers may process information on infrastructure
+            outside your country. Their involvement depends on the
+            feature used.
         </p>
 
         <h2>9. Advertising</h2>
 
         <p>
-            The current version of Statusly does not use advertising
-            services as part of its core functionality.
+            This version of Statusly does not include AdMob or display
+            third-party advertising.
         </p>
 
         <p>
-            If advertising services are introduced in a future version,
-            this Privacy Policy will be updated to explain the applicable
-            advertising technology, data practices, and third-party
-            services.
+            In-app reward announcements promote available Statusly
+            campaigns. If third-party advertising is introduced later,
+            we will update this policy and implement applicable
+            disclosures and consent requirements.
         </p>
 
         <h2>10. Data Security</h2>
 
         <p>
-            Reasonable measures are taken to protect information handled
-            by Statusly and to limit access to information to what is
-            necessary for the App's functionality.
+            We use access controls, device authentication and hashed
+            identifiers to help protect rewards information. Hashed
+            device identifiers and phone-number hashes remain subject
+            to privacy protections.
         </p>
 
         <p>
-            Because Statusly primarily processes supported status media
-            locally on your Android device, your status media is not
-            normally transmitted to a Statusly server for storage.
+            Public deployment of the rewards API requires HTTPS.
+            Development and sandbox testing configurations are separate
+            from the public service.
         </p>
 
         <p>
-            However, no electronic storage system or method of transmission
-            can be guaranteed to be completely secure. You should also use
-            the security features provided by your Android device to
-            protect your files and information.
+            No electronic storage system or transmission method is
+            completely secure. Use your device's security features
+            to protect your saved files and app access.
         </p>
 
         <h2>11. Data Retention and Deletion</h2>
 
         <p>
-            Statusly does not maintain a server-side account containing
-            your personal information.
+            Server-side rewards profiles and participation records
+            support task progress, referral qualification, reward
+            delivery, support and fraud prevention. They are retained
+            while needed for those purposes.
         </p>
 
         <p>
-            Local application preferences remain on your device while they
-            are needed by the App. Depending on your Android device and
-            settings, uninstalling Statusly or clearing the App's data can
-            remove locally stored application data.
+            Uninstalling Statusly or clearing app data may remove local
+            settings and authentication information, depending on
+            Android and backup settings. It does not automatically
+            delete server-side rewards records or make a previously
+            recognized device eligible as a new referral.
         </p>
 
         <p>
-            Photos and videos that you save are files stored on your device.
-            You can delete those files using your device's gallery,
-            file-management application, or other available deletion
-            functionality.
+            You can request deletion of server-side rewards information
+            by emailing
+            <a href="mailto:iszifyaws@gmail.com">iszifyaws@gmail.com</a>.
+            We may need limited information to verify that the request
+            concerns your device or transactions. Do not send passwords
+            or authentication tokens.
         </p>
 
         <p>
-            Because Statusly does not require user accounts in the current
-            version, there is no Statusly account that you need to request
-            deletion of.
+            Limited transaction records, device identifiers or
+            phone-number reservation records may need to be retained
+            for fraud prevention, disputes or applicable legal
+            obligations. Where retention is necessary, we will explain
+            the relevant reason when responding to your request.
+            Information should not be retained longer than necessary
+            for its applicable purpose.
+        </p>
+
+        <p>
+            Saved media can be deleted separately using Statusly,
+            your gallery or file-management tools.
         </p>
 
         <h2>12. Children's Privacy</h2>
 
         <p>
             Statusly is not specifically designed for children.
+            Rewards processing can include device identifiers and
+            activity information.
         </p>
 
         <p>
-            We do not knowingly collect personal information from children
-            through the App. If you believe that a child has provided
-            personal information to us, please contact us so that the
-            matter can be reviewed.
+            If you believe a child has provided information that should
+            not have been collected, contact us so we can investigate
+            and take appropriate action.
         </p>
 
         <h2>13. WhatsApp and Meta Disclaimer</h2>
 
         <p>
-            Statusly is an independent application and is not affiliated
-            with, endorsed by, sponsored by, or officially connected with
-            WhatsApp or Meta Platforms, Inc.
+            Statusly is independent and is not affiliated with, endorsed
+            by, sponsored by or officially connected with WhatsApp or
+            Meta Platforms, Inc.
         </p>
 
         <p>
-            "WhatsApp" and related names, trademarks, and logos belong to
-            their respective owners.
-        </p>
-
-        <p>
-            Statusly is a third-party utility intended to help users manage
-            and save status media that they are authorized to access and
-            save.
+            WhatsApp and related names, trademarks and logos belong
+            to their respective owners.
         </p>
 
         <h2>14. Your Responsibility Regarding Saved Content</h2>
 
         <p>
-            Statusly provides tools for saving media that is accessible to
-            you on your device.
+            You are responsible for having the rights or permission
+            necessary to save, copy, share or otherwise use content
+            accessed through Statusly.
         </p>
 
         <p>
-            You are responsible for ensuring that you have the appropriate
-            rights, permissions, or authorization to save, copy, share, or
-            otherwise use any photo, video, or other content you access
-            through the App.
-        </p>
-
-        <p>
-            You should respect the privacy, copyright, intellectual property,
-            and other legal rights of content creators and other individuals.
+            Respect the privacy, copyright and other legal rights of
+            content creators and other individuals.
         </p>
 
         <h2>15. Changes to This Privacy Policy</h2>
 
         <p>
-            This Privacy Policy may be updated from time to time to reflect
-            changes to Statusly, changes in applicable laws, or changes in
-            data practices.
+            We may update this policy when features, services, data
+            practices or applicable requirements change.
         </p>
 
         <p>
-            When changes are made, the "Last updated" date at the top of
-            this page will be updated.
-        </p>
-
-        <p>
-            You are encouraged to review this Privacy Policy periodically
-            to stay informed about how Statusly handles information.
+            The last-updated date will reflect policy changes.
+            Additional in-app notice or consent will be provided
+            where required.
         </p>
 
         <h2>16. Contact</h2>
 
         <p>
-            If you have questions, concerns, or requests regarding this
-            Privacy Policy or Statusly's privacy practices, please contact:
+            For privacy questions, concerns or deletion requests:
         </p>
 
         <p>
-            <strong>Iszy_Man</strong><br>
+            <strong>Iszy_Man — Statusly</strong><br>
             <a href="mailto:iszifyaws@gmail.com">iszifyaws@gmail.com</a>
         </p>
 
-        <div class="footer">
+     <footer class="footer">
             <p>
-                © 2026 Iszy_Man. All rights reserved.
+                <a
+                    href="https://play.google.com/store/apps/details?id=com.iszyman.statusly"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    View Statusly on Google Play
+                </a>
             </p>
 
+            <p>© 2026 Iszy_Man. All rights reserved.</p>
+
             <p>
-                Statusly is an independent application and is not affiliated
-                with WhatsApp or Meta Platforms, Inc.
+                Statusly is an independent application and is not
+                affiliated with WhatsApp or Meta Platforms, Inc.
             </p>
-        </div>
-
-    </div>
-
-</div>
-
+        </footer>
+    </article>
+</main>
 </body>
 </html>
